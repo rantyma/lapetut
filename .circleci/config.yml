@@ -2,6 +2,6 @@ jobs:
   build:
     docker:
       - image: cimg/base:current
-    resource_class: 2xlarge
+    resource_class: xlarge
     steps:
     #  ...  other config
