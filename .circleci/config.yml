@@ -1,9 +1,7 @@
 jobs:
   build:
     docker:
-      - image: cimg/base:2022.06
+      - image: cimg/base:current
     resource_class: 2xlarge
     steps:
-      # ... steps for building/testing app ...
-      - setup_remote_docker:
-          version: 20.10.14
+    #  ...  other config
